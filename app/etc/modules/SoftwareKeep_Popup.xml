@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SoftwareKeep_Popup>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.1.0</version>
+        </SoftwareKeep_Popup>
+    </modules>
+</config>

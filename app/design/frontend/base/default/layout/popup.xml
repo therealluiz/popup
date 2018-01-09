@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+        <reference name="head">
+        	<action method="addJs"><script>jquery-1.12.4.min.js</script></action>
+        	<action method="addJs"><script>popup.js</script></action>            
+            <action method="addCss"><stylesheet>css/popup.css</stylesheet></action>
+        </reference>
+    </default>
+
+    <cms_index_index>
+        <reference name="content">
+            <block type="core/template" name="popup" before="content" template="popup/popup.phtml" />
+        </reference>
+    </cms_index_index>
+</layout>

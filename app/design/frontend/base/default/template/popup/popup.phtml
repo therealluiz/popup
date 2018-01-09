@@ -1,0 +1,11 @@
+<?php
+	$helper = Mage::helper('popup');
+?>
+<div class="popup" data-popup="popup">
+    <div class="popup-inner">
+        <h2><?php echo $this->__('Title') ?></h2>
+        <p><?php echo $helper->getPopupText() ?></p>
+        <p class="button-close"><a data-popup-close="popup" href="#"><?php echo $this->__('Close') ?></a></p>
+        <a class="popup-close" data-popup-close="popup" href="#">x</a>
+    </div>
+</div>

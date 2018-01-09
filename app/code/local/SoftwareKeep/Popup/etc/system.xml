@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<softwarekeep translate="label" module="popup">
+            <label>SoftwareKeep</label>
+            <sort_order>0</sort_order>
+        </softwarekeep>
+	  </tabs>
+	  <sections>
+		<softwarekeep_popup  translate="label" module="popup">                    
+		<label>Popup</label>
+		<tab>softwarekeep</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <popup_configuration translate="label"> 
+					  <label>Configuration</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <popup_text translate="label">
+                            <label>Popup Text</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </popup_text>
+					   </fields>
+					   </popup_configuration>
+					</groups>
+		</softwarekeep_popup>
+	  </sections>
+</config>
